@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
+    background-image: url('img/web_background.png'); /* Replace with the path to your image */
+    background-size: 100% 100%; /* Stretch the background image to cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed;
+}
+
+.resume-container {
+    display: flex;
+}
+
+/* Left Section */
+.left-section {
+    width: 15%;
+    padding: 30px;
+    background: linear-gradient(to bottom, #003366, #21abcd);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr-edit-left {
+    width: 90%;
+    border: 1.5px solid #FFFFFF;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+
+.text-edit-left {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    padding: 15px 50px;
+}
+
+.right-section hr {
+    width: 90%;
+    border: 1.5px solid #003366;
+}
+
+.right-header-h1 {
+    color: #003366;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.right-header-h2 {
+    color: #003366;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.right-section-content {
+    color: #003366;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.right-section-content h2{
+    color: #003366;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.right-section-content ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+.right-section-content li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.right-section-content a {
+    color: #003366;
+    transition: color 0.25s ease;
+}
+
+.right-section-content a:hover {
+    color: #5CE1E6;
+}
